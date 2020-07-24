@@ -863,7 +863,7 @@ class TG4Provider(BrightCoveProvider):
             # Defaults
             apiUrl = u"http://api.bit.ly/v3/shorten"
             dataType = u"jsonp"
-            username = u"tg4webmaster"
+            username = u"tg4webmain"
             key = u"R_0415ac9dd2067d451236b796d85d461a"
             
 

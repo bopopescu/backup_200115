@@ -63,8 +63,8 @@ from provider import Provider
 
 xhausUrl = "http://www.xhaus.com/headers"
 
-# Use masterprofile rather profile, because we are caching data that may be used by more than one user on the machine
-DATA_FOLDER	  = xbmc.translatePath( os.path.join( u"special://masterprofile", u"addon_data", pluginName ) )
+# Use mainprofile rather profile, because we are caching data that may be used by more than one user on the machine
+DATA_FOLDER	  = xbmc.translatePath( os.path.join( u"special://mainprofile", u"addon_data", pluginName ) )
 CACHE_FOLDER	 = os.path.join( DATA_FOLDER, u'cache' )
 RESOURCE_PATH = os.path.join( sys.modules[u"__main__"].addon.getAddonInfo( u"path" ), u"resources" )
 MEDIA_PATH = os.path.join( RESOURCE_PATH, u"media" )

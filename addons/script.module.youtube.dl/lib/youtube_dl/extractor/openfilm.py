@@ -18,9 +18,9 @@ class OpenFilmIE(InfoExtractor):
         'md5': '42bcd88c2f3ec13b65edf0f8ad1cac37',
         'info_dict': {
             'id': '32736',
-            'display_id': 'human-resources-remastered',
+            'display_id': 'human-resources-remained',
             'ext': 'mp4',
-            'title': 'Human Resources (Remastered)',
+            'title': 'Human Resources (Remained)',
             'description': 'Social Engineering in the 20th Century.',
             'thumbnail': 're:^https?://.*\.jpg$',
             'duration': 7164,
